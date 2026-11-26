@@ -1,0 +1,397 @@
+{
+  "dataset": "r52",
+  "source": "https://raw.githubusercontent.com/yao8839836/text_gcn/962223652e9bb164ac2d83cd09fc7b8845ce860b/data/",
+  "fingerprint": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+  "expected_fingerprint": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+  "raw_sha256": "b41c81b655db7bff5bd33f366bd1cf0b1abd4f02e25e1ef00fd08c7c05d7d04e",
+  "split_sizes": {
+    "train": 5870,
+    "val": 662,
+    "test": 2568
+  },
+  "validation_classes": 51,
+  "absent_validation": [
+    "platinum"
+  ],
+  "frequency_groups": {
+    "frequent": 12,
+    "medium": 22,
+    "rare": 18
+  },
+  "exact_train_test_duplicate_ids": [
+    "test:63",
+    "test:332",
+    "test:429",
+    "test:441",
+    "test:1235",
+    "test:1559"
+  ],
+  "exact_train_val_duplicate_count": 19,
+  "exact_source_train_test_duplicate_count": 6,
+  "classes": [
+    {
+      "label": "acq",
+      "bucket": "frequent",
+      "train": 1436,
+      "val": 160,
+      "test": 696
+    },
+    {
+      "label": "alum",
+      "bucket": "medium",
+      "train": 28,
+      "val": 3,
+      "test": 19
+    },
+    {
+      "label": "bop",
+      "bucket": "medium",
+      "train": 20,
+      "val": 2,
+      "test": 9
+    },
+    {
+      "label": "carcass",
+      "bucket": "rare",
+      "train": 5,
+      "val": 1,
+      "test": 5
+    },
+    {
+      "label": "cocoa",
+      "bucket": "medium",
+      "train": 41,
+      "val": 5,
+      "test": 15
+    },
+    {
+      "label": "coffee",
+      "bucket": "frequent",
+      "train": 81,
+      "val": 9,
+      "test": 22
+    },
+    {
+      "label": "copper",
+      "bucket": "medium",
+      "train": 28,
+      "val": 3,
+      "test": 13
+    },
+    {
+      "label": "cotton",
+      "bucket": "medium",
+      "train": 13,
+      "val": 2,
+      "test": 9
+    },
+    {
+      "label": "cpi",
+      "bucket": "medium",
+      "train": 49,
+      "val": 5,
+      "test": 17
+    },
+    {
+      "label": "cpu",
+      "bucket": "rare",
+      "train": 2,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "label": "crude",
+      "bucket": "frequent",
+      "train": 228,
+      "val": 25,
+      "test": 121
+    },
+    {
+      "label": "dlr",
+      "bucket": "rare",
+      "train": 2,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "label": "earn",
+      "bucket": "frequent",
+      "train": 2556,
+      "val": 284,
+      "test": 1083
+    },
+    {
+      "label": "fuel",
+      "bucket": "rare",
+      "train": 3,
+      "val": 1,
+      "test": 7
+    },
+    {
+      "label": "gas",
+      "bucket": "rare",
+      "train": 9,
+      "val": 1,
+      "test": 8
+    },
+    {
+      "label": "gnp",
+      "bucket": "frequent",
+      "train": 52,
+      "val": 6,
+      "test": 15
+    },
+    {
+      "label": "gold",
+      "bucket": "frequent",
+      "train": 63,
+      "val": 7,
+      "test": 20
+    },
+    {
+      "label": "grain",
+      "bucket": "medium",
+      "train": 37,
+      "val": 4,
+      "test": 10
+    },
+    {
+      "label": "heat",
+      "bucket": "rare",
+      "train": 5,
+      "val": 1,
+      "test": 4
+    },
+    {
+      "label": "housing",
+      "bucket": "medium",
+      "train": 13,
+      "val": 2,
+      "test": 2
+    },
+    {
+      "label": "income",
+      "bucket": "rare",
+      "train": 6,
+      "val": 1,
+      "test": 4
+    },
+    {
+      "label": "instal-debt",
+      "bucket": "rare",
+      "train": 4,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "label": "interest",
+      "bucket": "frequent",
+      "train": 171,
+      "val": 19,
+      "test": 81
+    },
+    {
+      "label": "ipi",
+      "bucket": "medium",
+      "train": 30,
+      "val": 3,
+      "test": 11
+    },
+    {
+      "label": "iron-steel",
+      "bucket": "medium",
+      "train": 23,
+      "val": 3,
+      "test": 12
+    },
+    {
+      "label": "jet",
+      "bucket": "rare",
+      "train": 1,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "label": "jobs",
+      "bucket": "medium",
+      "train": 33,
+      "val": 4,
+      "test": 12
+    },
+    {
+      "label": "lead",
+      "bucket": "rare",
+      "train": 3,
+      "val": 1,
+      "test": 4
+    },
+    {
+      "label": "lei",
+      "bucket": "medium",
+      "train": 10,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "label": "livestock",
+      "bucket": "medium",
+      "train": 12,
+      "val": 1,
+      "test": 5
+    },
+    {
+      "label": "lumber",
+      "bucket": "rare",
+      "train": 6,
+      "val": 1,
+      "test": 4
+    },
+    {
+      "label": "meal-feed",
+      "bucket": "rare",
+      "train": 5,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "label": "money-fx",
+      "bucket": "frequent",
+      "train": 185,
+      "val": 21,
+      "test": 87
+    },
+    {
+      "label": "money-supply",
+      "bucket": "frequent",
+      "train": 111,
+      "val": 12,
+      "test": 28
+    },
+    {
+      "label": "nat-gas",
+      "bucket": "medium",
+      "train": 22,
+      "val": 2,
+      "test": 12
+    },
+    {
+      "label": "nickel",
+      "bucket": "rare",
+      "train": 2,
+      "val": 1,
+      "test": 1
+    },
+    {
+      "label": "orange",
+      "bucket": "medium",
+      "train": 12,
+      "val": 1,
+      "test": 9
+    },
+    {
+      "label": "pet-chem",
+      "bucket": "medium",
+      "train": 12,
+      "val": 1,
+      "test": 6
+    },
+    {
+      "label": "platinum",
+      "bucket": "rare",
+      "train": 1,
+      "val": 0,
+      "test": 2
+    },
+    {
+      "label": "potato",
+      "bucket": "rare",
+      "train": 1,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "label": "reserves",
+      "bucket": "medium",
+      "train": 33,
+      "val": 4,
+      "test": 12
+    },
+    {
+      "label": "retail",
+      "bucket": "medium",
+      "train": 17,
+      "val": 2,
+      "test": 1
+    },
+    {
+      "label": "rubber",
+      "bucket": "medium",
+      "train": 28,
+      "val": 3,
+      "test": 9
+    },
+    {
+      "label": "ship",
+      "bucket": "frequent",
+      "train": 97,
+      "val": 11,
+      "test": 36
+    },
+    {
+      "label": "strategic-metal",
+      "bucket": "rare",
+      "train": 8,
+      "val": 1,
+      "test": 6
+    },
+    {
+      "label": "sugar",
+      "bucket": "frequent",
+      "train": 87,
+      "val": 10,
+      "test": 25
+    },
+    {
+      "label": "tea",
+      "bucket": "rare",
+      "train": 1,
+      "val": 1,
+      "test": 3
+    },
+    {
+      "label": "tin",
+      "bucket": "medium",
+      "train": 15,
+      "val": 2,
+      "test": 10
+    },
+    {
+      "label": "trade",
+      "bucket": "frequent",
+      "train": 226,
+      "val": 25,
+      "test": 75
+    },
+    {
+      "label": "veg-oil",
+      "bucket": "medium",
+      "train": 17,
+      "val": 2,
+      "test": 11
+    },
+    {
+      "label": "wpi",
+      "bucket": "medium",
+      "train": 13,
+      "val": 1,
+      "test": 9
+    },
+    {
+      "label": "zinc",
+      "bucket": "rare",
+      "train": 7,
+      "val": 1,
+      "test": 5
+    }
+  ]
+}

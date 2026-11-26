@@ -1,0 +1,185 @@
+{
+  "dataset": "ohsumed",
+  "source": "https://raw.githubusercontent.com/yao8839836/text_gcn/962223652e9bb164ac2d83cd09fc7b8845ce860b/data/",
+  "fingerprint": "10c6a05d6c48189524a5f5fe0150192a4c871f6a48a0d64d309abcf95de717b1",
+  "expected_fingerprint": "10c6a05d6c48189524a5f5fe0150192a4c871f6a48a0d64d309abcf95de717b1",
+  "raw_sha256": "58ddac64a804106bf6656d9a6a45bc683b5e0aa8a74f1fd7bbc6b83e265a99b6",
+  "split_sizes": {
+    "train": 3021,
+    "val": 336,
+    "test": 4043
+  },
+  "validation_classes": 23,
+  "absent_validation": [],
+  "frequency_groups": {
+    "frequent": 15,
+    "medium": 7,
+    "rare": 1
+  },
+  "exact_train_test_duplicate_ids": [],
+  "exact_train_val_duplicate_count": 0,
+  "exact_source_train_test_duplicate_count": 0,
+  "classes": [
+    {
+      "label": "C01",
+      "bucket": "frequent",
+      "train": 103,
+      "val": 11,
+      "test": 102
+    },
+    {
+      "label": "C02",
+      "bucket": "medium",
+      "train": 23,
+      "val": 2,
+      "test": 50
+    },
+    {
+      "label": "C03",
+      "bucket": "medium",
+      "train": 19,
+      "val": 2,
+      "test": 29
+    },
+    {
+      "label": "C04",
+      "bucket": "frequent",
+      "train": 387,
+      "val": 43,
+      "test": 600
+    },
+    {
+      "label": "C05",
+      "bucket": "frequent",
+      "train": 75,
+      "val": 8,
+      "test": 140
+    },
+    {
+      "label": "C06",
+      "bucket": "frequent",
+      "train": 158,
+      "val": 18,
+      "test": 178
+    },
+    {
+      "label": "C07",
+      "bucket": "medium",
+      "train": 26,
+      "val": 3,
+      "test": 34
+    },
+    {
+      "label": "C08",
+      "bucket": "frequent",
+      "train": 109,
+      "val": 12,
+      "test": 129
+    },
+    {
+      "label": "C09",
+      "bucket": "medium",
+      "train": 31,
+      "val": 4,
+      "test": 28
+    },
+    {
+      "label": "C10",
+      "bucket": "frequent",
+      "train": 193,
+      "val": 22,
+      "test": 342
+    },
+    {
+      "label": "C11",
+      "bucket": "medium",
+      "train": 44,
+      "val": 5,
+      "test": 76
+    },
+    {
+      "label": "C12",
+      "bucket": "frequent",
+      "train": 139,
+      "val": 16,
+      "test": 187
+    },
+    {
+      "label": "C13",
+      "bucket": "frequent",
+      "train": 83,
+      "val": 9,
+      "test": 103
+    },
+    {
+      "label": "C14",
+      "bucket": "frequent",
+      "train": 527,
+      "val": 58,
+      "test": 590
+    },
+    {
+      "label": "C15",
+      "bucket": "medium",
+      "train": 49,
+      "val": 5,
+      "test": 79
+    },
+    {
+      "label": "C16",
+      "bucket": "frequent",
+      "train": 53,
+      "val": 6,
+      "test": 70
+    },
+    {
+      "label": "C17",
+      "bucket": "frequent",
+      "train": 91,
+      "val": 10,
+      "test": 132
+    },
+    {
+      "label": "C18",
+      "bucket": "frequent",
+      "train": 151,
+      "val": 17,
+      "test": 155
+    },
+    {
+      "label": "C19",
+      "bucket": "medium",
+      "train": 36,
+      "val": 4,
+      "test": 46
+    },
+    {
+      "label": "C20",
+      "bucket": "frequent",
+      "train": 161,
+      "val": 18,
+      "test": 231
+    },
+    {
+      "label": "C21",
+      "bucket": "frequent",
+      "train": 216,
+      "val": 24,
+      "test": 313
+    },
+    {
+      "label": "C22",
+      "bucket": "rare",
+      "train": 8,
+      "val": 1,
+      "test": 10
+    },
+    {
+      "label": "C23",
+      "bucket": "frequent",
+      "train": 339,
+      "val": 38,
+      "test": 419
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# The archived prediction verifier uses only Python 3.11+.
+# PyTorch is required for the objective and gate examples and their unit tests.
+torch>=2.6

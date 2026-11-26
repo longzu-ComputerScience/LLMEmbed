@@ -1,0 +1,41 @@
+# Python & Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Experiment caches, artifacts, and temporary files
+tmp/
+output/
+tmp_output/
+kaggle_experiment/runs/
+kaggle_experiment/llmembed_plusplus.zip
+*.log
+outputs/
+data/
+datasets/
+features/
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+*.npz
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.kaggle/
+kaggle.json
+*.pem
+*.key
+
+# OS / Editor
+.DS_Store
+Thumbs.db

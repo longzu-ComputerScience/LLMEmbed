@@ -1,0 +1,123 @@
+{
+  "data": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+  "experiment": {
+    "name": "exp4_ctrl_mlp",
+    "stride": 4,
+    "cot": true,
+    "chunked": true,
+    "adaptive": false,
+    "fusion_type": "mlp",
+    "class_weighted": false,
+    "fusion": 15,
+    "llama": "meta-llama/Llama-2-7b-hf",
+    "bert": "google-bert/bert-large-uncased",
+    "roberta": "FacebookAI/roberta-large"
+  },
+  "training": {
+    "protocol": "controlled",
+    "batch_size": 1024,
+    "micro_batch": 64,
+    "hidden": 1024,
+    "heads": 8,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "sigma": 0.1,
+    "power_watts": null,
+    "epochs": 100,
+    "study_split": "test",
+    "cache_receipt_hash": "57ea35325e956ca1032aca5a550a645a3256b900d679cadd673044cf52956636",
+    "seed": 43
+  },
+  "features": [
+    {
+      "spec": {
+        "model": "meta-llama/Llama-2-7b-hf",
+        "revision": "01c7f73d771dfac7d292323805ebc428287df4f9",
+        "task": "r52",
+        "stride": 4,
+        "pooling": "cot",
+        "precision": "fp16",
+        "max_length": 512,
+        "chunked": true,
+        "chunk_size": 256,
+        "overlap": 32,
+        "max_chunks": 0,
+        "gamma": 0.5,
+        "tau": 0.1,
+        "source": "llama",
+        "model_commit": "01c7f73d771dfac7d292323805ebc428287df4f9",
+        "transformers": "4.51.3",
+        "feature_format": 1,
+        "extraction_seed": 42,
+        "implementation": "b16e14da4fa713c0d0d1a87b4ab7da3e6cd5986354f4b6fcfe0241ea4f6e1226",
+        "layers": [
+          32,
+          28,
+          24,
+          20,
+          16
+        ]
+      },
+      "data": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+      "split": "train"
+    },
+    {
+      "spec": {
+        "model": "google-bert/bert-large-uncased",
+        "revision": "6da4b6a26a1877e173fca3225479512db81a5e5b",
+        "task": "r52",
+        "stride": 1,
+        "pooling": "pooler",
+        "precision": "fp16",
+        "max_length": 512,
+        "chunked": true,
+        "chunk_size": 256,
+        "overlap": 32,
+        "max_chunks": 0,
+        "gamma": 0.5,
+        "tau": 0.1,
+        "source": "bert",
+        "model_commit": "6da4b6a26a1877e173fca3225479512db81a5e5b",
+        "transformers": "4.51.3",
+        "feature_format": 1,
+        "extraction_seed": 42,
+        "implementation": "b16e14da4fa713c0d0d1a87b4ab7da3e6cd5986354f4b6fcfe0241ea4f6e1226",
+        "layers": [
+          24
+        ]
+      },
+      "data": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+      "split": "train"
+    },
+    {
+      "spec": {
+        "model": "FacebookAI/roberta-large",
+        "revision": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+        "task": "r52",
+        "stride": 1,
+        "pooling": "cls",
+        "precision": "fp16",
+        "max_length": 512,
+        "chunked": true,
+        "chunk_size": 256,
+        "overlap": 32,
+        "max_chunks": 0,
+        "gamma": 0.5,
+        "tau": 0.1,
+        "source": "roberta",
+        "model_commit": "722cf37b1afa9454edce342e7895e588b6ff1d59",
+        "transformers": "4.51.3",
+        "feature_format": 1,
+        "extraction_seed": 42,
+        "implementation": "b16e14da4fa713c0d0d1a87b4ab7da3e6cd5986354f4b6fcfe0241ea4f6e1226",
+        "layers": [
+          24
+        ]
+      },
+      "data": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+      "split": "train"
+    }
+  ],
+  "training_format": 1,
+  "implementation": "1fb30c0bc94ea242f5f8be52cd19bfe3793770cc1ea52c36973e32861855d9f6"
+}

@@ -1,0 +1,17 @@
+{
+  "code_commit": "782dca953c7f180977f82cb59867287dd1c92f93",
+  "origin": "https://www.kaggle.com/code/longvucs/llmembed-fusion-r52-fp16-extraction (pinned extraction, commit 782dca953c7f180977f82cb59867287dd1c92f93)",
+  "dataset": "r52",
+  "data_fingerprint": "9ec4582dd94d216f201f217efa950433ac3d2baad024c2ebea8063cbdde1a035",
+  "model_commits": {
+    "llama": "01c7f73d771dfac7d292323805ebc428287df4f9",
+    "bert": "6da4b6a26a1877e173fca3225479512db81a5e5b",
+    "roberta": "722cf37b1afa9454edce342e7895e588b6ff1d59"
+  },
+  "precision": "fp16",
+  "completed_sources": [
+    "bert",
+    "roberta",
+    "llama"
+  ]
+}
